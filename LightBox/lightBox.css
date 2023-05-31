@@ -1,0 +1,66 @@
+#vis-popup{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.55);
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    z-index: 999999;
+    display: none;
+}
+
+#vis-popup #left-arrow{
+    position: absolute;
+    top: 50vh;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+#vis-popup #right-arrow{
+    position: absolute;
+    top: 50vh;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+#vis-popup #main-pop-image{
+    max-width: 110%;
+    max-width: 110vh;
+    margin: 5vh 5vh;
+    filter: drop-shadow(8px -8px 20px black);
+}
+
+#vis-popup #close img{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#imgmac{
+    width: 100%;
+    text-align: center;
+    filter: drop-shadow(0.5px -0.5px 10px black);
+    cursor: pointer;
+}
+
+#imgwind{
+    width: 100%;
+    text-align: center;
+    filter: drop-shadow(0.5px -0.5px 10px black);
+    cursor: pointer;
+}
+
+#imglinux{
+    width: 100%;
+    text-align: center;
+    filter: drop-shadow(0.5px -0.5px 10px black);
+    cursor: pointer;
+}
